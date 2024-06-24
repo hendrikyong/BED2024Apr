@@ -20,7 +20,7 @@ const getUserById = async (req, res) => {
     res.json(user);
   } catch (error) {
     console.error(error);
-    res.status(500).send("Error retrieving book");
+    res.status(500).send("Error retrieving user");
   }
 };
 
